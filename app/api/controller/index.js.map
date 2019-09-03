@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "file": "../../../src/api/controller/index.ts",
+    "sourceRoot": "",
+    "sources": [
+        "../../../src/api/controller/index.ts"
+    ],
+    "names": [],
+    "mappings": ";;;;;AAAA,wDAA6B;AAC7B,eAAqB,SAAQ,iBAAI;IAC/B,KAAK,CAAC,WAAW;QAEf,MAAM,KAAK,GAAG,IAAI,CAAC,KAAK,CAAC,UAAU,CAAC,CAAC;QAErC,MAAM,IAAI,GAAG,MAAM,KAAK,CAAC,MAAM,EAAE,CAAC;QAElC,OAAO,IAAI,CAAC,OAAO,CAAC,IAAI,CAAC,CAAC;IAC5B,CAAC;CACF;AATD,4BASC"
+}

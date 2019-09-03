@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "file": "../../../src/api/model/index.ts",
+    "sourceRoot": "",
+    "sources": [
+        "../../../src/api/model/index.ts"
+    ],
+    "names": [],
+    "mappings": ";;AAAA,qCAAgC;AAEhC,eAAqB,SAAQ,eAAK,CAAC,KAAK;CACvC;AADD,4BACC"
+}

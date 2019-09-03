@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "file": "../../../src/common/config/config.ts",
+    "sourceRoot": "",
+    "sources": [
+        "../../../src/common/config/config.ts"
+    ],
+    "names": [],
+    "mappings": "AACA,MAAM,CAAC,OAAO,GAAG;IACf,OAAO,EAAE,CAAC;CACX,CAAC"
+}

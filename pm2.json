@@ -1,0 +1,15 @@
+{
+  "apps": [{
+    "name": "shopServer",
+    "script": "production.js",
+    "cwd": "/Users/ronglongchen/Documents/shop/shopServer",
+    "exec_mode": "fork",
+    "max_memory_restart": "1G",
+    "autorestart": true,
+    "node_args": [],
+    "args": [],
+    "env": {
+      
+    }
+  }]
+}

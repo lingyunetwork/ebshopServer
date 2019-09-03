@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "file": "../../../src/common/config/router.ts",
+    "sourceRoot": "",
+    "sources": [
+        "../../../src/common/config/router.ts"
+    ],
+    "names": [],
+    "mappings": "AAAA,MAAM,CAAC,OAAO,GAAG;IAEb,CAAC,0BAA0B,EAAE,cAAc,EAAE,MAAM,CAAC;CACvD,CAAC"
+}

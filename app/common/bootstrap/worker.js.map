@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "file": "../../../src/common/bootstrap/worker.ts",
+    "sourceRoot": "",
+    "sources": [
+        "../../../src/common/bootstrap/worker.ts"
+    ],
+    "names": [],
+    "mappings": ""
+}

@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "file": "../../../src/common/bootstrap/master.ts",
+    "sourceRoot": "",
+    "sources": [
+        "../../../src/common/bootstrap/master.ts"
+    ],
+    "names": [],
+    "mappings": ""
+}

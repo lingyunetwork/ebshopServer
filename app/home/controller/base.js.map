@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "file": "../../../src/home/controller/base.ts",
+    "sourceRoot": "",
+    "sources": [
+        "../../../src/home/controller/base.ts"
+    ],
+    "names": [],
+    "mappings": ";;AAAA,qCAAgC;AAChC,eAAqB,SAAQ,eAAK,CAAC,UAAU;IAC3C,QAAQ;IACR,CAAC;CACF;AAHD,4BAGC"
+}

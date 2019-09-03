@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "file": "../../../src/home/logic/index.ts",
+    "sourceRoot": "",
+    "sources": [
+        "../../../src/home/logic/index.ts"
+    ],
+    "names": [],
+    "mappings": ";;AAAA,qCAAgC;AAEhC,eAAqB,SAAQ,eAAK,CAAC,KAAK;IACtC,WAAW;IACX,CAAC;CACF;AAHD,4BAGC"
+}

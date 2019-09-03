@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "file": "../../../src/common/config/extend.ts",
+    "sourceRoot": "",
+    "sources": [
+        "../../../src/common/config/extend.ts"
+    ],
+    "names": [],
+    "mappings": ";;AAAA,MAAM,IAAI,GAAG,OAAO,CAAC,YAAY,CAAC,CAAC;AACnC,MAAM,KAAK,GAAG,OAAO,CAAC,aAAa,CAAC,CAAC;AACrC,MAAM,KAAK,GAAG,OAAO,CAAC,aAAa,CAAC,CAAC;AACrC,MAAM,OAAO,GAAG,OAAO,CAAC,eAAe,CAAC,CAAC;AACzC,qCAAgC;AAEhC,MAAM,CAAC,OAAO,GAAG;IACf,IAAI;IACJ,KAAK,CAAC,eAAK,CAAC,GAAG,CAAC;IAChB,KAAK;IACL,OAAO;CACR,CAAC"
+}
