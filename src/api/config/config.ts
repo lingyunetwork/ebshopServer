@@ -1,4 +1,12 @@
 // default config
 module.exports = {
-  workers: 1
+  workers: 1,
+
+  pubContr:[
+    "user"
+  ]
+
+  ,pubAction:[]
+
+
 };
