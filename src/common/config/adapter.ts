@@ -36,8 +36,8 @@ exports.model = {
   },
   mysql: {
     handle: mysql,
-    database: 'typescript',
-    prefix: 'shop_',
+    database: 'nideshop',
+    prefix: 'nideshop_',
     encoding: 'utf8',
     host: '127.0.0.1',
     port: '',

@@ -16,11 +16,15 @@
     "errmsgField": "errmsg",
     "defaultErrno": 1000,
     "validateDefaultErrno": 1001,
+    "pubContr": [
+      "user"
+    ],
+    "pubAction": [],
     "cache": {
       "type": "file",
       "file": {
         "timeout": 86400000,
-        "cachePath": "D:\\typescript\\gitdemo\\ebshopServer\\runtime\\cache",
+        "cachePath": "/Users/ronglongchen/Documents/GitHub/ebshopServer/runtime/cache",
         "pathDepth": 1,
         "gcInterval": 86400000
       }
@@ -30,8 +34,8 @@
       "mysql": {
         "logConnect": true,
         "logSql": true,
-        "database": "typescript",
-        "prefix": "shop_",
+        "database": "nideshop",
+        "prefix": "nideshop_",
         "encoding": "utf8",
         "host": "127.0.0.1",
         "port": "",
@@ -47,13 +51,13 @@
         "cookie": {
           "name": "thinkjs"
         },
-        "sessionPath": "D:\\typescript\\gitdemo\\ebshopServer\\runtime\\session"
+        "sessionPath": "/Users/ronglongchen/Documents/GitHub/ebshopServer/runtime/session"
       }
     },
     "view": {
       "type": "nunjucks",
       "nunjucks": {
-        "viewPath": "D:\\typescript\\gitdemo\\ebshopServer\\view",
+        "viewPath": "/Users/ronglongchen/Documents/GitHub/ebshopServer/view",
         "sep": "_",
         "extname": ".html"
       }
@@ -80,7 +84,7 @@
       "type": "file",
       "file": {
         "timeout": 86400000,
-        "cachePath": "D:\\typescript\\gitdemo\\ebshopServer\\runtime\\cache",
+        "cachePath": "/Users/ronglongchen/Documents/GitHub/ebshopServer/runtime/cache",
         "pathDepth": 1,
         "gcInterval": 86400000
       }
@@ -90,8 +94,8 @@
       "mysql": {
         "logConnect": true,
         "logSql": true,
-        "database": "typescript",
-        "prefix": "shop_",
+        "database": "nideshop",
+        "prefix": "nideshop_",
         "encoding": "utf8",
         "host": "127.0.0.1",
         "port": "",
@@ -107,13 +111,13 @@
         "cookie": {
           "name": "thinkjs"
         },
-        "sessionPath": "D:\\typescript\\gitdemo\\ebshopServer\\runtime\\session"
+        "sessionPath": "/Users/ronglongchen/Documents/GitHub/ebshopServer/runtime/session"
       }
     },
     "view": {
       "type": "nunjucks",
       "nunjucks": {
-        "viewPath": "D:\\typescript\\gitdemo\\ebshopServer\\view",
+        "viewPath": "/Users/ronglongchen/Documents/GitHub/ebshopServer/view",
         "sep": "_",
         "extname": ".html"
       }
@@ -140,7 +144,7 @@
       "type": "file",
       "file": {
         "timeout": 86400000,
-        "cachePath": "D:\\typescript\\gitdemo\\ebshopServer\\runtime\\cache",
+        "cachePath": "/Users/ronglongchen/Documents/GitHub/ebshopServer/runtime/cache",
         "pathDepth": 1,
         "gcInterval": 86400000
       }
@@ -150,8 +154,8 @@
       "mysql": {
         "logConnect": true,
         "logSql": true,
-        "database": "typescript",
-        "prefix": "shop_",
+        "database": "nideshop",
+        "prefix": "nideshop_",
         "encoding": "utf8",
         "host": "127.0.0.1",
         "port": "",
@@ -167,13 +171,13 @@
         "cookie": {
           "name": "thinkjs"
         },
-        "sessionPath": "D:\\typescript\\gitdemo\\ebshopServer\\runtime\\session"
+        "sessionPath": "/Users/ronglongchen/Documents/GitHub/ebshopServer/runtime/session"
       }
     },
     "view": {
       "type": "nunjucks",
       "nunjucks": {
-        "viewPath": "D:\\typescript\\gitdemo\\ebshopServer\\view",
+        "viewPath": "/Users/ronglongchen/Documents/GitHub/ebshopServer/view",
         "sep": "_",
         "extname": ".html"
       }
