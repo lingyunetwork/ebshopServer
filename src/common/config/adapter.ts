@@ -36,15 +36,15 @@ exports.model = {
   },
   mysql: {
     handle: mysql,
-    database: 'Shop',
+    database: 'typescript',
     prefix: 'shop_',
     encoding: 'utf8',
     host: '127.0.0.1',
     port: '',
     user: 'root',
-    password: 'root',
+    password: '',
     dateStrings: true,
-    acquireWaitTimeout: isDev ? 3000 : 0
+    acquireWaitTimeout: isDev ? 5000 : 0
   }
 };
 

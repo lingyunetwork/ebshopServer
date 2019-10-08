@@ -3,6 +3,7 @@ import { Model } from "think-model";
 import { think, Context } from "thinkjs";
 
 export default class extends think.Controller {
+  help: any;
   resource: string;
   id: string;
   modelInstance: Model;
@@ -13,7 +14,10 @@ export default class extends think.Controller {
     assert(think.isFunction(this.model), 'this.model must be a function');
     this.modelInstance = this.model(this.resource);
   }
-  __before() { }
+  __before() {
+    this.help = require("../../common/help");
+    this.header("X-Powered-By","yoyoyo");
+  }
   /**
    * get resource
    * @return {String} [resource name]

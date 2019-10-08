@@ -1,5 +1,8 @@
 {
   "api": {
+    "0": {
+      "workers": 1
+    },
     "port": 8360,
     "workers": 1,
     "stickyCluster": false,
@@ -27,15 +30,15 @@
       "mysql": {
         "logConnect": true,
         "logSql": true,
-        "database": "Shop",
+        "database": "typescript",
         "prefix": "shop_",
         "encoding": "utf8",
         "host": "127.0.0.1",
         "port": "",
         "user": "root",
-        "password": "root",
+        "password": "",
         "dateStrings": true,
-        "acquireWaitTimeout": 3000
+        "acquireWaitTimeout": 5000
       }
     },
     "session": {
@@ -57,8 +60,11 @@
     }
   },
   "common": {
+    "0": {
+      "workers": 1
+    },
     "port": 8360,
-    "workers": 1,
+    "workers": 0,
     "stickyCluster": false,
     "startServerTimeout": 3000,
     "reloadSignal": "SIGUSR2",
@@ -84,15 +90,15 @@
       "mysql": {
         "logConnect": true,
         "logSql": true,
-        "database": "Shop",
+        "database": "typescript",
         "prefix": "shop_",
         "encoding": "utf8",
         "host": "127.0.0.1",
         "port": "",
         "user": "root",
-        "password": "root",
+        "password": "",
         "dateStrings": true,
-        "acquireWaitTimeout": 3000
+        "acquireWaitTimeout": 5000
       }
     },
     "session": {
@@ -114,6 +120,9 @@
     }
   },
   "home": {
+    "0": {
+      "workers": 1
+    },
     "port": 8360,
     "workers": 1,
     "stickyCluster": false,
@@ -141,15 +150,15 @@
       "mysql": {
         "logConnect": true,
         "logSql": true,
-        "database": "Shop",
+        "database": "typescript",
         "prefix": "shop_",
         "encoding": "utf8",
         "host": "127.0.0.1",
         "port": "",
         "user": "root",
-        "password": "root",
+        "password": "",
         "dateStrings": true,
-        "acquireWaitTimeout": 3000
+        "acquireWaitTimeout": 5000
       }
     },
     "session": {
