@@ -15,21 +15,21 @@ export default class extends think.Controller {
     assert(think.isFunction(this.model), 'this.model must be a function');
     this.modelInstance = this.model(this.resource);
   }
-  __before() {
+  async __before() {
     this.help = require("../../common/help");
     this.ctx.state.token = this.ctx.header['Lingyu-Token'] || '';
-      const tokenSerivce = think.service('token', 'api') as token;
-      this.ctx.state.userId = await tokenSerivce.getUserId(this.ctx.state.token);
-  
-      const pubsContr = this.config('pubContr');
-      const pubAction = this.config('pubAction');
-      // 如果为非公开，则验证用户是否登录
-      const controllerAction = this.ctx.controller + '/' + this.ctx.action;
-      if (!pubsContr.includes(this.ctx.controller) && !pubAction.includes(controllerAction)) {
-        if (this.ctx.state.userId <= 0) {
-          return this.fail(401, '请先登录');
-        }
+    const tokenSerivce = think.service('token', 'api') as token;
+    this.ctx.state.userId = await tokenSerivce.getUserId(this.ctx.state.token);
+
+    const pubsContr = this.config('pubContr');
+    const pubAction = this.config('pubAction');
+    // 如果为非公开，则验证用户是否登录
+    const controllerAction = this.ctx.controller + '/' + this.ctx.action;
+    if (!pubsContr.includes(this.ctx.controller) && !pubAction.includes(controllerAction)) {
+      if (this.ctx.state.userId <= 0) {
+        return this.fail(401, '请先登录');
       }
+    }
   }
   /**
    * get resource
